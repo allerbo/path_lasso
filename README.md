@@ -29,14 +29,18 @@ $ python plot_gauss.py                         #Plot figure
 ## Figure 3 and Tables 2-4:
 ```
 $ cd news
-$ python extract_news.py              #Extract data
-$ python news_pl2.py                  #Path Lasso, 2 dimensions
-$ python news_pl4.py                  #Path Lasso, 4 dimensions
-$ python news_l12.py                  #Standard Lasso, 2 dimensions
-$ python news_l14.py                  #Standard Lasso, 4 dimensions
-$ python news_sp2.py                  #Sparse PCA, 2 dimensions
-$ python news_sp4.py                  #Sparse PCA, 4 dimensions
-$ python tables_plots_news.py DIMS=2  #Generate tables and plots
-$ python tables_plots_news.py DIMS=4  #Generate tables and plots
+$ python extract_news.py               #Extract data
+$ python news_pl2.py                   #Path Lasso, 2 dimensions
+$ python news_pl4.py                   #Path Lasso, 4 dimensions
+$ python news_pl25.py                  #Path Lasso, 25 dimensions
+$ python news_l12.py                   #Standard Lasso, 2 dimensions
+$ python news_l14.py                   #Standard Lasso, 4 dimensions
+$ python news_l125.py                  #Standard Lasso, 25 dimensions
+$ python news_sp2.py                   #Sparse PCA, 2 dimensions
+$ python news_sp4.py                   #Sparse PCA, 4 dimensions
+$ python news_sp25.py                  #Sparse PCA, 25 dimensions
+$ python tables_plots_news.py DIMS=2   #Generate tables and plots
+$ python tables_plots_news.py DIMS=4   #Generate tables and plots
+$ python tables_plots_news.py DIMS=25  #Generate table
 ```
 
