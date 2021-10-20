@@ -2,7 +2,7 @@ This is the code used in the article **Non-linear, Sparse Dimensionality Reducti
 
 Code in *synth_gauss* was run using Python 3.7.4 and TensorFlow 2.1.0, while code in *news* was run using Python 3.8.7 and TensorFlow 2.4.1. This is only important to get exact reconstruction of the images, and there might still be descripancies due to different hardware use.
 
-The code in omf.py and cdnmf_fast.pyx is heaily based on the non-negative matrix factorization code in python's scikit-learn module.
+The code in omf.py and cdnmf_fast.pyx is heavily based on the non-negative matrix factorization code in python's scikit-learn module.
 
 ## Compiling cdnmf_fast:
 ```
