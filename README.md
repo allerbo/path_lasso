@@ -1,4 +1,4 @@
-This is the code used in the article **Non-linear, Sparse Dimensionality Reduction via Path Lasso Penalized Autoencoders**, available at https://arxiv.org/abs/2102.10873.
+This is the code used in the article **Non-linear, Sparse Dimensionality Reduction via Path Lasso Penalized Autoencoders**, available at https://arxiv.org/abs/2102.10873 and https://www.jmlr.org/papers/volume22/21-0203/21-0203.pdf.
 
 Code in *synth_gauss* was run using Python 3.7.4 and TensorFlow 2.1.0, while code in *news* was run using Python 3.8.7 and TensorFlow 2.4.1. This is only important to get exact reconstruction of the images, and there might still be descripancies due to different hardware use.
 
